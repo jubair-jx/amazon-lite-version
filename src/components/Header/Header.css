@@ -10,4 +10,8 @@
 .menu a {
   margin-left: 40px;
   color: #fff;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: orange;
 }
