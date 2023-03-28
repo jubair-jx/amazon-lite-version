@@ -1,6 +1,8 @@
 .carts {
   background-color: rgb(243, 213, 175);
   padding: 25px;
+  position: sticky;
+  top: 0;
 }
 .carts p {
   font-family: "Lato";
