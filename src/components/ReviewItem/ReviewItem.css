@@ -1,0 +1,28 @@
+.review-container {
+  width: 571px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+}
+.review-container img {
+  width: 95px;
+  height: 95px;
+  border-radius: 15px;
+}
+.review-info {
+  flex-grow: 1;
+  margin-left: 25px;
+}
+.review-container .btns {
+  background-color: #fddddd;
+  border: 0;
+  padding: 15px 20px;
+  color: #eb5757;
+  font-size: 30px;
+  border-radius: 50px;
+}
