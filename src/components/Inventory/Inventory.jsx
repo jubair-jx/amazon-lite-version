@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AuthContext } from "../../ContextProvider/AuthProviders";
 
 const Inventory = () => {
-  return <div>Inventory</div>;
+  const { name } = useContext(AuthContext);
+  return (
+    <div>
+      <div>Inventory</div>;{name && <span>Welcome</span>}
+    </div>
+  );
 };
 
 export default Inventory;

@@ -8,7 +8,7 @@ import {
   deleteShoppingCart,
   getShoppingCart,
 } from "../../utilities/fakedb";
-import Product from "../Header/ShowProduct/Product";
+import Product from "../ShowProduct/Product";
 import "./shop.css";
 
 const Shop = () => {

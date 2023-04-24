@@ -21,14 +21,16 @@ const Cart = ({ cart, clearHandleBtn, children }) => {
 
   const grandTotal = totalPrice + totalShipping + tax;
   return (
-    <div className="carts">
-      <h3>Order Summary : </h3>
-      <p>Selected Items : {quantity}</p>
-      <p>Total Price : $ {totalPrice}</p>
-      <p>Total Shipping Charge : $ {totalShipping}</p>
-      <p>Tax : {tax.toFixed(2)}</p>
-      <h6>Grand Total : ${grandTotal.toFixed(2)} </h6>
-      <button onClick={clearHandleBtn} className="cart-btn">
+    <div className="bg-orange-200 h-96 w-76 pt-10">
+      <div className="pl-5">
+        <h3>Order Summary : </h3>
+        <p>Selected Items : {quantity}</p>
+        <p>Total Price : $ {totalPrice}</p>
+        <p>Total Shipping Charge : $ {totalShipping}</p>
+        <p>Tax : {tax.toFixed(2)}</p>
+        <h6>Grand Total : ${grandTotal.toFixed(2)} </h6>
+      </div>
+      <button onClick={clearHandleBtn} className="cart-btn mt-5">
         <span>Clear Cart</span>
         <FontAwesomeIcon icon={faTrashAlt} />
       </button>
